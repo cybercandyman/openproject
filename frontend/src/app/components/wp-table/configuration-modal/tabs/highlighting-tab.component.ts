@@ -19,13 +19,9 @@ export class WpTableConfigurationHighlightingTab implements TabComponent {
     highlighting_mode: {
       description: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.description'),
       none: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.none'),
-      none_text: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.none_text'),
       inline: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.inline'),
-      inline_text: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.inline_text'),
       status: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.status'),
-      status_text: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.status_text'),
       priority: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.priority'),
-      priority_text: this.I18n.t('js.work_packages.table_configuration.highlighting_mode.priority_text')
     }
   };
 
